@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Exercises {
 
 	public boolean commonEnd(ArrayList<Integer> a, ArrayList<Integer> b) {
