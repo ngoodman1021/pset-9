@@ -4,8 +4,10 @@ import java.util.ArrayList;
  *Hello, Welcome to Naya-Jevan Goodman's
  *Problem Set-9
  */
+ 
 public class Exercises {
 
+	//Exercise 1
 	public boolean commonEnd(ArrayList<Integer> a, ArrayList<Integer> b) {
 		if (a == null || a.isEmpty() || b == null || b.isEmpty()) {
 			return false;
@@ -18,6 +20,8 @@ public class Exercises {
 		return false;
 	}
 	
+	
+	//Exercise 2
 	public ArrayList<String> endsMeet(ArrayList<String> values, int n) {
 		if (values == null || values.size() < n || n < 1) {
 			ArrayList empty = new ArrayList();
@@ -40,6 +44,7 @@ public class Exercises {
  		}
 	}
 	
+	//Exercise 3
 	public int difference(ArrayList<Integer> numbers) {
 		if (numbers == null || numbers.size() < 1) {
 			return -1;
@@ -63,6 +68,7 @@ public class Exercises {
 		}
 	}
 	
+	//Exercise 4
 	public double biggest(ArrayList<Double> numbers) {
 		if (numbers == null || numbers.size() < 3 || numbers.size() % 2 == 0) {
 			return -1;
@@ -97,7 +103,7 @@ public class Exercises {
 		return -1;
 	}
 	
-	
+	//Exercise 5
 	public ArrayList<String> middle(ArrayList<String> values) {
 		ArrayList<String> empty = new ArrayList<String>();
 		if (values == null || values.size() < 3 || values.size() % 2 == 0) {
@@ -126,6 +132,7 @@ public class Exercises {
 		}
 	}
 
+	//Exercise 6
 	public boolean increasing(ArrayList<Integer> numbers) {
 		if (numbers == null || numbers.size() < 3) {
 			return false;
@@ -143,6 +150,7 @@ public class Exercises {
 		}
 	}
 	
+	//Exercise 7
 	public boolean everywhere(ArrayList<Integer> numbers, int x) {
 		if (numbers == null || numbers.size() < 1) {
 			return false;
@@ -165,6 +173,7 @@ public class Exercises {
 		}
 	}
 	
+	//Exercise 8
 	public boolean consecutive(ArrayList<Integer> numbers) {
 		if (numbers == null || numbers.size() < 3) {
 			return false;
@@ -187,6 +196,7 @@ public class Exercises {
 		}
 	}
 	
+	//Exercise 9
 	public boolean balance(ArrayList<Integer> numbers) {
 		if (numbers == null || numbers.size() < 2) {
 			return false;
@@ -210,6 +220,7 @@ public class Exercises {
 		}
 	}
 	
+	//Exercise 10
 	public int clumps(ArrayList<String> values) {
 		if (values == null) {
 			return -1;
